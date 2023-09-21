@@ -1,7 +1,5 @@
 public class Polynomial{
-
-	//this is a field. 
-	//double[] coefficientP = new double[20];
+	
 	double[] coefficientP;
 
 	//this is a constructor. it initializes references, primitives, objects????
