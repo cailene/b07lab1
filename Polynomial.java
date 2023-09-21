@@ -19,7 +19,6 @@ public class Polynomial{
 	
 	// (Polynomial poly) is an argument
 	public Polynomial add(Polynomial poly){
-		// assuming the argument and calling object have the same size array:
 		if (poly.coefficientP.length <= coefficientP.length) {
 			for (int i = 0; i < poly.coefficientP.length; i++){	
 				poly.coefficientP[i] += coefficientP[i];
