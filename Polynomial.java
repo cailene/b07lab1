@@ -29,6 +29,16 @@ public class Polynomial{
 			return poly;
 		}
 	}
+	/*
+	 * // corrected version for add 
+	 * public Polynomial add2(Polynomial poly){
+	 * Polynomial p = new Polynomial(coefficientP);
+	 * 
+	 * if (poly.coefficientP.length <= p.coefficientP.length) { for (int i = 0; i <
+	 * poly.coefficientP.length; i++){ p.coefficientP[i] += poly.coefficientP[i]; }
+	 * return p; }else { for (int i = 0; i < p.coefficientP.length; i++){
+	 * poly.coefficientP[i] += p.coefficientP[i]; } return poly; } }
+	 */
 
 	public double evaluate(double x){
 		double result = 0;
